@@ -6,7 +6,7 @@
 
 <p>&nbsp;</p>
 
-This package provides the phpcs-psr2 configuration used at [Taikonauten](https://taikonauten.com).
+This package provides the phpcs configuration used at [Taikonauten](https://taikonauten.com).
 
 ## Installation
 
