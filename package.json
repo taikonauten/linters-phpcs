@@ -1,5 +1,5 @@
 {
-  "name": "linters-phpcs",
+  "name": "@taikonauten/linters-phpcs",
   "version": "1.0.0",
   "description": "Taikonauten phpcs configuration",
   "homepage": "https://github.com/taikonauten/linters-phpcs#readme",
