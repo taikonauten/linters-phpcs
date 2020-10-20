@@ -1,0 +1,21 @@
+{
+  "name": "linters-phpcs",
+  "version": "1.0.0",
+  "description": "Taikonauten phpcs configuration",
+  "homepage": "https://github.com/taikonauten/linters-phpcs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taikonauten/linters-phpcs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/taikonauten/linters-phpcs/issues"
+  },
+  "author": "Tobias Schubert (ts@taikonauten.com)",
+  "license": "MIT",
+  "keywords": [
+    "lint",
+    "linter",
+    "php",
+    "phpcs"
+  ]
+}
