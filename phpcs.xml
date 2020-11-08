@@ -217,6 +217,26 @@
   <!-- checked in Squiz.Functions.MultiLineFunctionDeclaration -->
 
   <!-- Custom rules (Taikonauten) -->
+
+  <arg name="extensions" value="php,module,inc"/>
+
+  <!-- Default -->
+  <exclude-pattern>node_modules/**</exclude-pattern>
+  <exclude-pattern>vendor/**</exclude-pattern>
+
+  <!-- Laravel -->
+  <exclude-pattern>bootstrap/**</exclude-pattern>
+  <exclude-pattern>docker/**</exclude-pattern>
+  <exclude-pattern>public/**</exclude-pattern>
+  <exclude-pattern>storage/**</exclude-pattern>
+
+  <!-- Kirby -->
+  <exclude-pattern>web/kirby/**</exclude-pattern>
+  <exclude-pattern>web/site/plugins/**</exclude-pattern>
+
+  <!-- Wordpress -->
+  <exclude-pattern>web/wp/**</exclude-pattern>
+
   <rule>
     <exclude name="Squiz.Functions.MultiLineFunctionDeclaration"/>
     <exclude name="Squiz.WhiteSpace.ControlStructureSpacing.SpacingAfterOpen"/>
