@@ -1,6 +1,6 @@
 {
   "name": "@taikonauten/linters-phpcs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Taikonauten phpcs configuration",
   "homepage": "https://github.com/taikonauten/linters-phpcs#readme",
   "repository": {
