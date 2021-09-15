@@ -218,7 +218,7 @@
 
   <!-- Custom rules (Taikonauten) -->
 
-  <arg name="extensions" value="php,module,inc"/>
+  <arg name="extensions" value="php,module,inc,phtml"/>
 
   <!-- Default -->
   <exclude-pattern>node_modules/**</exclude-pattern>
