@@ -12,6 +12,9 @@
   },
   "author": "Tobias Schubert <ts@taikonauten.com>",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "keywords": [
     "lint",
     "linter",
