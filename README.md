@@ -15,7 +15,7 @@ brew install composer
 ```
 
 ```bash
-composer global require "squizlabs/php_codesniffer=*" --ignore-platform-reqs
+composer require "squizlabs/php_codesniffer=*" --ignore-platform-reqs
 ```
 
 Inside project root
@@ -25,7 +25,18 @@ npm install --save-dev @taikonauten/linters-phpcs
 ```
 
 ```bash
-ln -s node_modules/@taikonauten/linters-phpcs/phpcs.xml phpcs.xml
+cp node_modules/@taikonauten/linters-phpcs/phpcs.xml phpcs.xml
+```
+
+Add the following script to your package.json (if any)
+
+```json
+{
+  "scripts": {
+    "lint": "npm run lint:php",
+    "lint:php": "./vendor/bin/phpcs --standard=phpcs.xml",
+  }
+}
 ```
 
 ## Using with your IDE or Editor
